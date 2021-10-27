@@ -1,0 +1,63 @@
+/*Colors and fonds */
+
+
+ul, li, ol {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	background-color: rgb(230,230,230);
+	color: rgb(30, 30, 30) ;
+	font-family: 'Urbanist', sans-serif;
+	font-size: var(30xp);
+}
+
+h1, h2, h3 {
+	color: hotpink;
+	font-family: Questrial;
+	font-weight:800;
+}
+
+a {color: blue;
+font-size: 45px;}
+
+.social {list-style: none;
+display: flex;
+align-items:center ;
+flex-direction: row;
+justify-content: space-between;
+width: 500px;
+margin-left: 40px;}
+
+.carte {
+background-color: light;
+width: 600px;
+border-width: 1px;
+padding: 50px;
+border-radius: 6px;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 1.0);
+margin: 30px auto;
+text-align: center;
+}
+
+ul {list-style: none;}
+
+.button {
+	text-decoration: none;
+	background-color: lightpink;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 20px;
+	color: black ;
+	box-shadow: 5px 5px 5px black;
+
+}
+
+img	{
+	border-radius: 50%;
+}
